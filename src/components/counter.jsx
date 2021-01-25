@@ -6,22 +6,12 @@ class Counter extends Component {
     render() { 
         React.createElement('div')
         return (
-            <span className = {this.state.formatCount()}></span>
+            // <span className = {this.state.formatCount()}></span>
 
-            <h1>Hello World</h1><button>hhh</button>
-        
+            <h1>Hello World</h1>
+            // <button>hhh</button>
+            
         );
         
 
-
-        formatCount () {
-            const{count} = this.state;
-            return {count} === 0 ? "zero" : count;
-        }
-           
-            
-    
-    };
-}
- 
 export default Counter;
